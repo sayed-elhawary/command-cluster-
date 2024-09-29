@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pods-name
+  labels:
+    env: env
+spec:
+  containers:
+    - name: sayed
+      image: nginx
+      ports:
+        - containerPort: 80
